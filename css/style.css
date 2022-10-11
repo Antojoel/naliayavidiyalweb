@@ -1,0 +1,729 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+*p{
+    font-size: 18px;
+}
+*h1{
+    font-size: 23px;
+}
+/* navbar */
+.nav-total{
+    background-color: rgb(255, 255, 255);
+   
+}
+.nav-logo{
+    height: 63px;
+    width: 100%;
+}
+.nav-cont{
+    padding: 14px;
+}
+.nav-content{
+    color: #335486;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar-toggler-icon{
+  background-color: #335486;
+}
+.nav-link:hover{
+    color: #A8cc42;
+}
+/* nav drapdown */
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(238, 235, 235, 0.842);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:#0098c6;color:white;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* background slide */
+  .slide-one{
+    background-image:url(../photo/beggarawareness.jpeg);
+    height: 640px;
+    width: 100%;
+    background-size:cover;
+    filter:brightness(0.9 )!important;
+    margin-top: 90px;
+}
+.slide-two{
+  background-image:url(../images/22.png);
+  height: 640px;
+  width: 100%;
+  background-size:cover;
+  margin-top: 90px;
+}
+.slide-three{
+  background-image:url(../images/33.jpg);
+  height: 640px;
+  width: 100%;
+  background-size:cover;
+  margin-top: 90px;
+}
+
+/* main content */
+.main-content{
+  color:white;
+  margin-top: 10%;
+  background: linear-gradient(rgba(10, 10, 10, 0.74),rgba(12, 12, 12, 0.644));
+  min-height:300px;
+  padding: 5%;
+}
+
+.main-btn{
+  margin-top: 33%;
+  /* margin-left: 60%; */
+  text-align: center;
+}
+.main-con{
+  margin-top: 90px;
+}
+
+/* /-----Social Links------/ */
+
+
+#mySidenav a {
+    position: absolute;
+    right: 0px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 45px;
+    text-decoration: none;
+    font-size: 20px;
+    position: fixed;
+    color: white;
+    border-radius: 0px 0px 0px 0px;
+    z-index: 99;
+    
+  }
+  
+  #mySidenav a:hover {
+    right: 10px; 
+  }
+
+ 
+  
+  #facebook {
+    top: 240px;
+    background-color: #335486;
+  }
+ 
+  #insta {
+    top: 290px;
+    background-color: #A8cc42;
+  }
+  
+  #mail {
+    top: 340px;
+    background-color: #335486;
+  }
+  
+  #phone {
+    top: 390px;
+    background-color: #A8cc42;
+  }
+
+  #twit{
+    top: 440px;
+    background-color: #335486;
+  }
+
+
+  /* button */
+  button{
+      background-color: #A8cc42;
+      border: none;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      padding: 15px 32px;
+      text-align: center;
+      font-size: 18px;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+  button:hover{
+    background-color: #335486;
+  }
+
+  /* popup view */
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 210%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f30000;
+}
+
+/* Center the image and position the close button */
+.popup-container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #ffffff;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.3s;
+  animation: animatezoom 0.3s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+
+  }
+}
+
+
+/* contactus */
+
+.contact-container{
+  height: 50vh;   
+  background: linear-gradient(rgba(10, 10, 10, 0.74),rgba(12, 12, 12, 0.644)),
+  url("../images/xbg_2.jpg.pagespeed.ic.cNaQ5sDYti.webp");
+  background-size: cover;
+  background-image: center;
+  padding: auto;
+  margin-top: 90px;
+}  
+.contact-container h1{
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 10%;
+}
+
+.ftco-section {
+padding: 5em 0;
+position: relative;
+}
+@media (max-width: 767.98px){
+.info-wrap {
+height: 400px;
+}}
+.dbox .icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #335486;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  }
+  .dbox .icon span {
+    font-size: 40px;
+    color: #fff;
+    }
+    .dbox p span {
+      font-weight: 700;
+      color: #000;
+      display: block;
+      font-size: 16px;
+      }
+.no-gutters {
+margin-right: 0;
+margin-left: 0;
+}
+.contact-wrap {
+background: #A8cc42;
+}
+.img, .blog-img, .user-img {
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+/* footer */
+.footer-sty{
+    background-color:rgba(238, 235, 235, 0.842);
+    color: #335486;
+}
+
+/* home content*/
+.sec-total{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sec-content{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sec-img{
+    width: 100%;
+    height: 290px;
+}
+
+
+/* about */
+.about-container{
+  height: 50vh;   
+  background: linear-gradient(rgba(10, 10, 10, 0.2),rgba(12, 12, 12, 0.644)),
+  url("../images/gall.jpeg");
+  background-size:cover;
+  background-image: center;
+  padding: auto;
+  margin-top: 90px;
+} 
+.about-container h1{
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 10%;
+} 
+.about-lett{
+  margin-top: 10%;
+}
+
+/* our service */
+.service-features {
+  padding: 50px;
+  background-color: #FFF; }
+  @media screen and (max-width: 940px) {
+    .service-features {
+      padding: 50px 10px; } }
+  .service-features .single-key {
+    background-color: #FFF;
+    margin-bottom: 30px;
+    text-align: center;
+    width:100%;
+    height: 90%;
+    padding: 30px; }
+    .service-features .single-key h5 {
+      font-size: 1.5rem; }
+    .service-features .single-key i {
+      background-color: #0098ef;
+      padding: 20px;
+      font-size: 42px;
+      color: #FFF;
+      margin-bottom: 30px;
+      border-radius: 50px; }
+      .service-features .single-key i:hover{
+        background-color: #A8cc42;
+      }
+    .service-features .single-key {
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+    .service-features .single-key p {
+      font-size: 15px; }
+.inner-title{
+  text-align: center;
+  padding-bottom: 5%;
+}
+      
+
+/* payment form */
+.home-second-donation-form{
+  padding-top: 4%;
+}
+  .home-second-donation-form .form-style {
+background-color: rgba(248, 246, 246, 0.993);
+background-repeat: repeat;
+padding: 4rem 3rem;
+border-radius: 10px;
+padding-top: 2rem;
+margin-top: 71px;
+}
+.static-amounts .btn-secondary:not(:disabled):not(.disabled) {
+color: #fff;
+background-color: rgba(180, 178, 178, 0.993);
+border-color: rgba(180, 178, 178, 0.993);
+}
+#static_amount_100 .btn .btn_secondary .m_2 .badge .active{
+color:#FFFFFF;
+background-color: #28A745;
+margin: 8px;
+padding: 8px;
+}
+.btn{
+padding: 8px;
+}
+.btn-default, .btn-default:disabled, .btn-default:hover:disabled {
+color: #fff;
+background-color: #335486;
+border-color: #335486;
+}
+.btn {
+display: inline-flex;
+justify-content: center;
+padding: 0.719rem 1.9rem;
+font-size: 1rem;
+outline: none;
+align-items: center;
+position: relative;
+border-radius: 60px;
+text-transform: capitalize;
+overflow: hidden;
+}
+.amount-input {
+font-size: 36px !important;
+font-weight: bold;
+color: green !important;
+}
+
+/* id card */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+.img-letter{
+  margin-left: 20%;
+}
+.id-sign{
+  margin-left:64%;
+  margin-top: 10px;
+}
+.id-card{
+  background-color: rgba(248, 246, 246, 0.993);
+  width: 100%;
+  height: 480px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.paa{
+  padding-left: 5%;
+}
+.id-sign img{
+  width: 115px;
+  height: 100px;
+}
+.idtotal-container{
+  margin-top: 90px;
+}
+/* donate card */
+.pay-sec{
+  border:0px solid black;
+  background-color:#A8cc42;
+  border-radius: 10px;
+  padding: 2px;
+  font-size: 20px;
+}
+.pay-container{
+  background-color: rgba(248, 246, 246, 0.993);
+  box-shadow: 0px 0px 20px rgb(67, 67, 70);
+  border-radius: 10px;
+  margin-top: 8%;
+}
+.pay-di{
+  margin-left: 30px;
+}
+.pay-ca{
+  margin-left: 30px;
+}
+.hide {
+  display: none;
+}
+
+/*  Gallery  */
+
+
+.photo-container{
+  height: 60vh;   
+  background: linear-gradient(rgba(10, 10, 10, 0.20),rgba(12, 12, 12, 0.500)),
+  url('../images/66.jpeg');
+  background-size: cover;
+  background-image: center;
+  padding: auto;
+  margin-top: 90px;
+}  
+.photo-container h1{
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 40%;
+}
+
+.images-container h1{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color:  rgb(0, 0, 0);
+}
+
+.img{
+  background: #ffffff;
+}
+  
+.img-container{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #ffffff linear-gradient();
+  box-shadow: 0px 5px 5px rgb(124, 124, 124);
+  border:3px solid rgb(255, 255, 255);
+}
+
+.img-container .img-content img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.img-container:hover .img-content img{
+  opacity: 0;
+  cursor: pointer;
+
+}
+.nalai {
+  margin-right: 0px;
+  margin-left: 7px;
+}
+.img-container:hover .contant{
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+}
+.img-container h3{
+  font-size: 20px;
+  margin-top: 35%;
+  color: #000000;
+}
+.img-container p{
+  color: #000000;
+  margin: 10px 0 0;
+  text-align: center;
+  line-height: 18px;
+  transition: justify;
+}
+.img img{
+  height: 200px;
+  transition: 1s;
+}
+.img{
+  overflow: hidden;
+}
+.img img:hover{
+  transform: scale(0.5);
+  transition: 1s;
+}
+.gallery img{
+  height: 300px;
+  width: 290px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 20px;     
+}
+.gallery img{
+  
+  transition: 1s;
+}
+.gallery{
+  overflow: hidden;
+  
+} 
+.gallery img:hover{
+  transform: scale(0.9);
+  transition: 1s;
+}
+
+/* member join form */
+.mem-container{
+  margin-top: 90px;
+}
+
+/* Services */
+
+/* Overview */
+.overview-container{
+  height: 85vh;   
+  background: linear-gradient(rgba(10, 10, 10, 0.2),rgba(12, 12, 12, 0.500)),
+  url('../images/overview.jpeg');
+  background-size: cover;
+  background-image: center;
+  padding: auto;
+  margin-top:6.6%;
+}
+.overview-container h1{
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 18%;
+}
+
+.spacer h5{
+  font-size: 20px;
+  font-weight: bold;
+  color: #A8cc42;
+  text-align: center;
+  padding: 2%;
+} 
+.vidiyal p{
+  font-size: 15px;
+  text-align: justify;  
+} 
+.vidiyal h3{
+  font-size: 28px;
+  color: #A8cc42;
+}
+.vidiyal{
+  margin-top: 2%;
+}
+.member{
+  border: dotted 1px black;
+  padding: 12px;     
+}
+
+/* health care */
+
+.health-container{
+  height: 70vh;   
+  background: linear-gradient(rgba(10, 10, 10, 0.74),rgba(12, 12, 12, 0.644)),
+  url('../images/health2.jpg');
+  background-size: cover;
+  background-image: center;
+  padding: auto;
+  margin-top: 6.6%;
+}
+.health-container h1{
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 17%;
+}
+
+.healthcare h3{
+  font-size: 28px;
+  font-weight: bold;
+  color: #A8cc42;
+}
+.care h5{
+  font-size: 20px;
+  font-weight: bold;
+  color: #A8cc42;
+  text-align: center;
+  padding: 2%;
+} 
+.medical{
+  border: dotted 1px black;
+  padding: 12px;  
+  margin-left: 0%;   
+}
+
+/* Helping Elderly */
+
+.elderly-container{
+  height:85vh;   
+  background: linear-gradient(rgba(10, 10, 10, 0.74),rgba(12, 12, 12, 0.644)),
+  url('../images/alone.webp');
+  background-size: cover;
+  background-image: center;
+  padding: auto;
+  margin-top: 6.6%;
+}
+.elderly-container h1{
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 18%;
+}
+
+.healthcare h3{
+  font-size: 28px;
+  font-weight: bold;
+  color: #A8cc42;
+}
+.care h5{
+  font-size: 20px;
+  font-weight: bold;
+  color: #A8cc42;
+  text-align: center;
+  padding: 2%;
+} 
+.medical{
+  border: dotted 1px black;
+  padding: 12px;  
+  margin-left: 0%;   
+}
